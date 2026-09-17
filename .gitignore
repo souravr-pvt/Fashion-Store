@@ -1,0 +1,16 @@
+# Eclipse IDE specific files
+.settings/
+.classpath
+.project
+
+# Build and compiled output directories
+target/
+build/
+
+# Server and system logs
+*.log
+*.tmp
+
+# OS specific files
+.DS_Store
+Thumbs.db

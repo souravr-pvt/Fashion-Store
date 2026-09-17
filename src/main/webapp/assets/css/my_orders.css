@@ -1,0 +1,82 @@
+/* src/main/webapp/assets/css/my_orders.css */
+
+.orders-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.orders-header {
+    margin-bottom: 30px;
+}
+
+.orders-header h1 {
+    font-size: 28px;
+    color: var(--text-dark);
+    margin-bottom: 5px;
+}
+
+.orders-header p {
+    color: #666;
+}
+
+.order-card {
+    background: var(--container-bg);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+.order-card-header {
+    background-color: #f3eedd;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+.order-id {
+    font-weight: bold;
+    color: var(--accent-brown);
+}
+
+.order-date {
+    color: #666;
+    font-size: 14px;
+}
+
+.order-card-body {
+    padding: 20px 25px;
+}
+
+.order-item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.order-item-row:last-child {
+    border-bottom: none;
+}
+
+.order-card-footer {
+    padding: 15px 25px;
+    background-color: #faf9f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.badge-success {
+    background-color: #e2fcd6;
+    color: #2b7a0b;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
